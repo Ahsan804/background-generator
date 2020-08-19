@@ -1,3 +1,6 @@
+var _ = require('lodash');
+var array1=[1,2,3,4,5,6,7,8];
+console.log('Answer :', _.without(array1,3)); 
 // let name =["Ahsan","Nadeem","haniya","sheeza","Sabiha"];
 // for (let index = 0; index < name.length; index++) {
 //     const element = name[index];
